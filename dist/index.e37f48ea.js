@@ -603,9 +603,21 @@ const timeout = function(s) {
             reject(new Error(`Request took too long! Timeout after ${s} second`));
         }, s * 1000);
     });
-}; // NEW API URL (instead of the one shown in the video)
- // https://forkify-api.jonas.io
- ///////////////////////////////////////
+};
+// NEW API URL (instead of the one shown in the video)
+// https://forkify-api.jonas.io
+///////////////////////////////////////
+const showRecipe = async function() {
+    try {
+        const res = await fetch('https://forkify-api.jonas.io/api/v2/recipes/5ed6604591c37cdc054bc886');
+        const data = await res.json();
+        if (!res.ok) throw new Error(`${data.message} ${data.status}`);
+        console.log(res, data);
+    } catch (err) {
+        alert(err);
+    }
+};
+showRecipe();
 
 },{}]},["ik2hV","aenu9"], "aenu9", "parcelRequire94c2")
 
