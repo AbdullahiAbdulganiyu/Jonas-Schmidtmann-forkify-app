@@ -611,9 +611,21 @@ const timeout = function(s) {
 // NEW API URL (instead of the one shown in the video)
 // https://forkify-api.jonas.io
 ///////////////////////////////////////
+const renderSpiner = function(parentEl) {
+    const markup = `
+    <div class="spinner">
+      <svg>
+        <use href="${(0, _iconsSvgDefault.default)}#icon-loader"></use>
+      </svg>
+     </div>
+  `;
+    parentEl.innerHTML = '';
+    parentEl.insertAdjacentHTML('afterbegin', markup);
+};
 const showRecipe = async function() {
     try {
         // 1) Loading recipe
+        renderSpiner(recipeContainer);
         const res = await fetch('https://forkify-api.jonas.io/api/v2/recipes/5ed6604591c37cdc054bc886');
         const data = await res.json();
         if (!res.ok) throw new Error(`${data.message} ${data.status}`);
@@ -669,12 +681,12 @@ const showRecipe = async function() {
 
             <div class="recipe__user-generated">
               <svg>
-                <use href="src/img/icons.svg#icon-user"></use>
+                <use href="${(0, _iconsSvgDefault.default)}#icon-user"></use>
               </svg>
             </div>
             <button class="btn--round">
               <svg class="">
-                <use href="src/img/icons.svg#icon-bookmark-fill"></use>
+                <use href="${(0, _iconsSvgDefault.default)}#icon-bookmark-fill"></use>
               </svg>
             </button>
           </div>
