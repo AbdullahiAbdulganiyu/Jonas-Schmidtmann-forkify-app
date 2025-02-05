@@ -678,16 +678,21 @@ const showRecipe = async function() {
           <div class="recipe__ingredients">
             <h2 class="heading--2">Recipe ingredients</h2>
             <ul class="recipe__ingredient-list">
+            ${recipe.ingredients.map((ing)=>{
+            return `
               <li class="recipe__ingredient">
                 <svg class="recipe__icon">
                   <use href="src/img/icons.svg#icon-check"></use>
                 </svg>
-                <div class="recipe__quantity">1000</div>
+                <div class="recipe__quantity">${ing.quantity}</div>
                 <div class="recipe__description">
-                  <span class="recipe__unit">g</span>
-                  pasta
+                  <span class="recipe__unit">${ing.unit}</span>
+                  ${ing.description}
                 </div>
               </li>
+              `;
+        }).join('')}
+
 
               <li class="recipe__ingredient">
                 <svg class="recipe__icon">
@@ -721,6 +726,7 @@ const showRecipe = async function() {
             </a>
           </div>
     `;
+        recipeContainer.innerHTML = '';
         recipeContainer.insertAdjacentHTML('afterbegin', markup);
     } catch (err) {
         alert(err);
