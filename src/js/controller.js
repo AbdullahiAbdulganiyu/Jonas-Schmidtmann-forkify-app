@@ -34,6 +34,7 @@ const showRecipe = async function () {
   try {
     const id = window.location.hash.slice(1);
     console.log(id);
+    if (!id) return;
     // 1) Loading recipe
     renderSpiner(recipeContainer);
     const res = await fetch(
@@ -175,4 +176,7 @@ const showRecipe = async function () {
   }
 };
 
-window.addEventListener('hashchange', showRecipe);
+// window.addEventListener('hashchange', showRecipe);
+// window.addEventListener('load', showRecipe)
+// code below same as code above
+['hashchange', 'load'].forEach(ev => window.addEventListener(ev, showRecipe));
