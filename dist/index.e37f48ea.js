@@ -596,6 +596,10 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"aenu9":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _iconsSvg = require("url:../img/icons.svg");
+var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
+console.log((0, _iconsSvgDefault.default));
 const recipeContainer = document.querySelector('.recipe');
 const timeout = function(s) {
     return new Promise(function(_, reject) {
@@ -637,14 +641,14 @@ const showRecipe = async function() {
           <div class="recipe__details">
             <div class="recipe__info">
               <svg class="recipe__info-icon">
-                <use href="src/img/icons.svg#icon-clock"></use>
+                <use href="${(0, _iconsSvgDefault.default)}#icon-clock"></use>
               </svg>
               <span class="recipe__info-data recipe__info-data--minutes">${recipe.cookingTime}</span>
               <span class="recipe__info-text">minutes</span>
             </div>
             <div class="recipe__info">
               <svg class="recipe__info-icon">
-                <use href="src/img/icons.svg#icon-users"></use>
+                <use href="${(0, _iconsSvgDefault.default)}#icon-users"></use>
               </svg>
               <span class="recipe__info-data recipe__info-data--people">${recipe.servings}</span>
               <span class="recipe__info-text">servings</span>
@@ -652,12 +656,12 @@ const showRecipe = async function() {
               <div class="recipe__info-buttons">
                 <button class="btn--tiny btn--increase-servings">
                   <svg>
-                    <use href="src/img/icons.svg#icon-minus-circle"></use>
+                    <use href="${(0, _iconsSvgDefault.default)}#icon-minus-circle"></use>
                   </svg>
                 </button>
                 <button class="btn--tiny btn--increase-servings">
                   <svg>
-                    <use href="src/img/icons.svg#icon-plus-circle"></use>
+                    <use href="${(0, _iconsSvgDefault.default)}#icon-plus-circle"></use>
                   </svg>
                 </button>
               </div>
@@ -733,6 +737,74 @@ const showRecipe = async function() {
     }
 };
 showRecipe();
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","url:../img/icons.svg":"loVOp"}],"gkKU3":[function(require,module,exports,__globalThis) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, '__esModule', {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === 'default' || key === '__esModule' || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"loVOp":[function(require,module,exports,__globalThis) {
+module.exports = require("9bcc84ee5d265e38").getBundleURL('hWUTQ') + "icons.dfd7a6db.svg" + "?" + Date.now();
+
+},{"9bcc84ee5d265e38":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ('' + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return '/';
+}
+function getBaseURL(url) {
+    return ('' + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ('' + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error('Origin not found');
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
 
 },{}]},["ik2hV","aenu9"], "aenu9", "parcelRequire94c2")
 
