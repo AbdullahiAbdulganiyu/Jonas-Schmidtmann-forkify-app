@@ -616,17 +616,6 @@ const timeout = function(s) {
 // NEW API URL (instead of the one shown in the video)
 // https://forkify-api.jonas.io
 ///////////////////////////////////////
-const renderSpiner = function(parentEl) {
-    const markup = `
-    <div class="spinner">
-      <svg>
-        <use href="${(0, _iconsSvgDefault.default)}#icon-loader"></use>
-      </svg>
-     </div>
-  `;
-    parentEl.innerHTML = '';
-    parentEl.insertAdjacentHTML('afterbegin', markup);
-};
 const controlRecipes = async function() {
     try {
         const id = window.location.hash.slice(1);
@@ -2601,6 +2590,17 @@ class RecipeView {
     #clear() {
         this.#parentElement.innerHTML = '';
     }
+    renderSpiner = function() {
+        const markup = `
+      <div class="spinner">
+        <svg>
+          <use href="${icons}#icon-loader"></use>
+        </svg>
+       </div>
+    `;
+        this.#parentElement.innerHTML = '';
+        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+    };
     #generateMarkup() {
         return `
           <figure class="recipe__fig">
