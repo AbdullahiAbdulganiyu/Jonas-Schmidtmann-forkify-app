@@ -627,7 +627,7 @@ const renderSpiner = function(parentEl) {
     parentEl.innerHTML = '';
     parentEl.insertAdjacentHTML('afterbegin', markup);
 };
-const showRecipe = async function() {
+const controlRecipe = async function() {
     try {
         const id = window.location.hash.slice(1);
         console.log(id);
@@ -641,13 +641,13 @@ const showRecipe = async function() {
         alert(err);
     }
 };
-// window.addEventListener('hashchange', showRecipe);
-// window.addEventListener('load', showRecipe)
+// window.addEventListener('hashchange', controlRecipe);
+// window.addEventListener('load', controlRecipe)
 // code below same as code above
 [
     'hashchange',
     'load'
-].forEach((ev)=>window.addEventListener(ev, showRecipe));
+].forEach((ev)=>window.addEventListener(ev, controlRecipe));
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","url:../img/icons.svg":"loVOp","core-js/modules/web.immediate.js":"49tUX","regenerator-runtime/runtime":"dXNgZ","./model.js":"Y4A21","./views/recipeView.js":"l60JC"}],"gkKU3":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
