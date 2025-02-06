@@ -1,9 +1,7 @@
 import * as model from './model.js';
 import recipeView from './views/recipeView.js';
-
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-console.log(icons);
 
 const recipeContainer = document.querySelector('.recipe');
 
@@ -26,7 +24,7 @@ const controlRecipes = async function () {
     console.log(id);
 
     if (!id) return;
-    renderSpiner(recipeContainer);
+    recipeView.renderSpiner();
 
     // 1) Loading recipe
     await model.loadRecipe(id);
