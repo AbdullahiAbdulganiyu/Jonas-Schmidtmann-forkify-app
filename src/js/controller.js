@@ -32,7 +32,7 @@ const renderSpiner = function (parentEl) {
   parentEl.insertAdjacentHTML('afterbegin', markup);
 };
 
-const controlRecipe = async function () {
+const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
     console.log(id);
@@ -50,9 +50,9 @@ const controlRecipe = async function () {
   }
 };
 
-// window.addEventListener('hashchange', controlRecipe);
-// window.addEventListener('load', controlRecipe)
+// window.addEventListener('hashchange', controlRecipes);
+// window.addEventListener('load', controlRecipes)
 // code below same as code above
 ['hashchange', 'load'].forEach(ev =>
-  window.addEventListener(ev, controlRecipe)
+  window.addEventListener(ev, controlRecipes)
 );
