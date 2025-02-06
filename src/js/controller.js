@@ -35,9 +35,12 @@ const showRecipe = async function () {
   try {
     const id = window.location.hash.slice(1);
     console.log(id);
+
     if (!id) return;
-    // 1) Loading recipe
     renderSpiner(recipeContainer);
+
+    // 1) Loading recipe
+    await model.loadRecipe(id);
 
     // 2) Rendering recipe
     const markup = `
