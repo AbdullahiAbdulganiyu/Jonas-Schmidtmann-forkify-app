@@ -2547,7 +2547,11 @@ const timeout = function(s) {
 };
 const getJSON = async function(url) {
     try {
-        const res = await Promise.race[fetch(url), timeout(10)];
+        const fetchPro = fetch(url);
+        const res = await Promise.race([
+            fetchPro,
+            timeout(10)
+        ]);
         // const res = await fetch(`${API_URL}/${id}`);
         const data = await res.json();
         if (!res.ok) throw new Error(`${data.message} ${data.status}`);
