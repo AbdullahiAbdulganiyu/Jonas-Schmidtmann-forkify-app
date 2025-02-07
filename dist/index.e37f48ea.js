@@ -2530,7 +2530,8 @@ const loadRecipe = async function(id) {
         };
         console.log(state.recipe);
     } catch (err) {
-        alert(err);
+        // Temporary error handling
+        console.error(`${err} \u{1F386}\u{1F386}\u{1F386}`);
     }
 };
 
