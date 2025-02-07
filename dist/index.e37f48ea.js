@@ -2516,6 +2516,7 @@ const state = {
 };
 const loadRecipe = async function(id) {
     try {
+        const data = await (0, _helper.getJSON)(`${(0, _config.API_URL)}/${id}`);
         const { recipe } = data.data;
         state.recipe = {
             id: recipe.id,
@@ -2549,7 +2550,10 @@ const getJSON = async function(url) {
         // const res = await fetch(`${API_URL}/${id}`);
         const data = await res.json();
         if (!res.ok) throw new Error(`${data.message} ${data.status}`);
-    } catch (err) {}
+        return data;
+    } catch (err) {
+        console.log(err);
+    }
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"l60JC":[function(require,module,exports,__globalThis) {
