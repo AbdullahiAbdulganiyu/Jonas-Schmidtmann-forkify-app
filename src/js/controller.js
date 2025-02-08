@@ -31,3 +31,9 @@ const controlRecipes = async function () {
 // window.addEventListener('hashchange', controlRecipes);
 // window.addEventListener('load', controlRecipes)
 // code below same as code above
+
+const init = function () {
+  recipeView.addHandlerRender(controlRecipes);
+};
+
+init();
