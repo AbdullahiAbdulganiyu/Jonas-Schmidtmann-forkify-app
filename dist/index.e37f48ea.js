@@ -617,7 +617,7 @@ const controlRecipes = async function() {
         // 2) Rendering recipe
         (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
     } catch (err) {
-        console.log(err);
+        (0, _recipeViewJsDefault.default).renderError(`${err} \u{1F386}\u{1F386}\u{1F386}\u{1F386}`);
     }
 };
 // window.addEventListener('hashchange', controlRecipes);
@@ -2525,6 +2525,7 @@ const loadRecipe = async function(id) {
     } catch (err) {
         // Temporary error handling
         console.error(`${err} \u{1F386}\u{1F386}\u{1F386}`);
+        throw err;
     }
 };
 
