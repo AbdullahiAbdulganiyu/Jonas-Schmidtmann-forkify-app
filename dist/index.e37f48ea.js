@@ -2575,6 +2575,7 @@ console.log((0, _fractional.Fraction));
 class RecipeView {
     #parentElement = document.querySelector('.recipe');
     #data;
+    #errorMessage = 'We could not find the recipe. Please try another one';
     render(data) {
         this.#data = data;
         const markup = this.#generateMarkup();

@@ -4,6 +4,7 @@ console.log(Fraction);
 class RecipeView {
   #parentElement = document.querySelector('.recipe');
   #data;
+  #errorMessage = 'We could not find the recipe. Please try another one';
 
   render(data) {
     this.#data = data;
