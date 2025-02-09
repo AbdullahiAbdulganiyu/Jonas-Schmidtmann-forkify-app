@@ -625,6 +625,7 @@ const controlRecipes = async function() {
 };
 const controlSearchResult = async function() {
     try {
+        (0, _resultsViewJsDefault.default).renderSpiner();
         // 1) Get search query
         const query = (0, _searchViewJsDefault.default).getQuery();
         if (!query) return;
