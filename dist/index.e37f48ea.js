@@ -2535,9 +2535,10 @@ const loadRecipe = async function(id) {
 };
 const loadSearchResult = async function(query) {
     try {
+        state.search.query = query;
         const data = await (0, _helper.getJSON)(`${(0, _config.API_URL)}?search=${query}`);
         console.log(data);
-        data.data.recipes.map((rec)=>{
+        state.search.result = data.data.recipes.map((rec)=>{
             return {
                 id: rec.id,
                 title: rec.title,
@@ -2545,6 +2546,7 @@ const loadSearchResult = async function(query) {
                 image: rec.image_url
             };
         });
+        console.log(state.search.result);
     } catch (err) {
         console.error(`${err} \u{1F386}\u{1F386}\u{1F386}`);
         throw err;
