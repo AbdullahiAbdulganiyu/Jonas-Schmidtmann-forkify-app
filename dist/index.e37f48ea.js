@@ -2507,7 +2507,7 @@ var _config = require("./config");
 var _helper = require("./helper");
 const state = {
     recipe: {},
-    serach: {
+    search: {
         query: '',
         result: []
     }
