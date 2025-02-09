@@ -626,7 +626,7 @@ const controlSearchResult = async function() {
     try {
         const query = (0, _searchViewJsDefault.default).getQuery();
         if (!query) return;
-        await _modelJs.loadSearchResult('pizza');
+        await _modelJs.loadSearchResult(query);
         console.log(_modelJs.state.search.result);
     } catch (err) {
         console.log(err);
