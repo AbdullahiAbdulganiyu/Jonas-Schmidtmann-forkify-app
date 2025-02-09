@@ -2617,7 +2617,7 @@ class RecipeView {
         this._clear();
         this._parentElement.insertAdjacentHTML('afterbegin', markup);
     }
-    #clear() {
+    _clear() {
         this._parentElement.innerHTML = '';
     }
     renderSpiner() {
@@ -2663,7 +2663,7 @@ class RecipeView {
             'load'
         ].forEach((ev)=>window.addEventListener(ev, handler));
     }
-    #generateMarkup() {
+    _generateMarkup() {
         return `
           <figure class="recipe__fig">
             <img src="${this._data.image}" alt="${this._data.title}" class="recipe__img" />
@@ -2752,7 +2752,7 @@ class RecipeView {
           </div>
     `;
     }
-    #generateMarkupIngredient(ing) {
+    _generateMarkupIngredient(ing) {
         return `
       <li class="recipe__ingredient">
         <svg class="recipe__icon">

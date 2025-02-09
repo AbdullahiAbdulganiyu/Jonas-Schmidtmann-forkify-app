@@ -13,7 +13,7 @@ class RecipeView {
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 
-  #clear() {
+  _clear() {
     this._parentElement.innerHTML = '';
   }
 
@@ -61,7 +61,7 @@ class RecipeView {
     ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
   }
 
-  #generateMarkup() {
+  _generateMarkup() {
     return `
           <figure class="recipe__fig">
             <img src="${this._data.image}" alt="${
@@ -161,7 +161,7 @@ class RecipeView {
     `;
   }
 
-  #generateMarkupIngredient(ing) {
+  _generateMarkupIngredient(ing) {
     return `
       <li class="recipe__ingredient">
         <svg class="recipe__icon">
