@@ -14,7 +14,6 @@ const recipeContainer = document.querySelector('.recipe');
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
-    console.log(id);
 
     if (!id) return;
     recipeView.renderSpiner();

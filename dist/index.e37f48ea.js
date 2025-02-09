@@ -611,7 +611,6 @@ const recipeContainer = document.querySelector('.recipe');
 const controlRecipes = async function() {
     try {
         const id = window.location.hash.slice(1);
-        console.log(id);
         if (!id) return;
         (0, _recipeViewJsDefault.default).renderSpiner();
         // 1) Loading recipe
@@ -2605,7 +2604,6 @@ parcelHelpers.defineInteropFlag(exports);
 var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _fractional = require("fractional");
-console.log((0, _fractional.Fraction));
 class RecipeView {
     #parentElement = document.querySelector('.recipe');
     #data;
