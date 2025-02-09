@@ -3,6 +3,10 @@ import { API_URL } from './config';
 import { getJSON } from './helper';
 export const state = {
   recipe: {},
+  serach: {
+    query: '',
+    result: [],
+  },
 };
 
 export const loadRecipe = async function (id) {

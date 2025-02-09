@@ -2506,7 +2506,11 @@ var _regeneratorRuntime = require("regenerator-runtime");
 var _config = require("./config");
 var _helper = require("./helper");
 const state = {
-    recipe: {}
+    recipe: {},
+    serach: {
+        query: '',
+        result: []
+    }
 };
 const loadRecipe = async function(id) {
     try {
