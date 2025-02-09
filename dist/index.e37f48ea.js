@@ -3099,6 +3099,8 @@ var _viewDefault = parcelHelpers.interopDefault(_view);
 var _iconsSvg = require("url:../../img/icons.svg");
 class ReultsView extends (0, _viewDefault.default) {
     _parentElement = document.querySelector('.results');
+    _errorMessage = 'No recipes found for your query. Please try again :)';
+    _message = '';
     _generateMarkup() {
         return this._data.map(this._generateMarkupPreview).join('');
     }
