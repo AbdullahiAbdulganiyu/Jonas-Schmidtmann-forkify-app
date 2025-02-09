@@ -3018,6 +3018,8 @@ module.exports.Fraction = Fraction;
 },{}],"5cUXS":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+var _iconsSvg = require("url:../../img/icons.svg");
+var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class View {
     _data;
     render(data) {
@@ -3033,7 +3035,7 @@ class View {
         const markup = `
       <div class="spinner">
         <svg>
-          <use href="${icons}#icon-loader"></use>
+          <use href="${(0, _iconsSvgDefault.default)}#icon-loader"></use>
         </svg>
        </div>
     `;
@@ -3045,7 +3047,7 @@ class View {
     <div class="error">
         <div>
           <svg>
-            <use href="${icons}#icon-alert-triangle"></use>
+            <use href="${(0, _iconsSvgDefault.default)}#icon-alert-triangle"></use>
           </svg>
         </div>
         <p>${message}</p>
@@ -3058,7 +3060,7 @@ class View {
     <div class="message">
         <div>
           <svg>
-            <use href="${icons}#icon-smile"></use>
+            <use href="${(0, _iconsSvgDefault.default)}#icon-smile"></use>
           </svg>
         </div>
         <p>${message}</p>
@@ -3069,7 +3071,7 @@ class View {
 }
 exports.default = View;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9OQAM":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","url:../../img/icons.svg":"loVOp"}],"9OQAM":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 class SearchView {
