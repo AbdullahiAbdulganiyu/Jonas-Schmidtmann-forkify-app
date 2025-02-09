@@ -624,6 +624,7 @@ const controlRecipes = async function() {
 };
 const controlSearchResult = async function() {
     try {
+        const query = (0, _searchViewJsDefault.default).getQuery();
         await _modelJs.loadSearchResult('pizza');
         console.log(_modelJs.state.search.result);
     } catch (err) {
