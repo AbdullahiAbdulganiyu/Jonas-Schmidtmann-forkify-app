@@ -2501,6 +2501,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "state", ()=>state);
 parcelHelpers.export(exports, "loadRecipe", ()=>loadRecipe);
+parcelHelpers.export(exports, "loadSearchResult", ()=>loadSearchResult);
 var _regeneratorRuntime = require("regenerator-runtime");
 var _config = require("./config");
 var _helper = require("./helper");
@@ -2528,6 +2529,16 @@ const loadRecipe = async function(id) {
         throw err;
     }
 };
+const loadSearchResult = async function(query) {
+    try {
+        const data = await (0, _helper.getJSON)(`${(0, _config.API_URL)}/recipes?search=${query}`);
+        console.log(data);
+    } catch (err) {
+        console.error(`${err} \u{1F386}\u{1F386}\u{1F386}`);
+        throw err;
+    }
+};
+loadSearchResult('pizza');
 
 },{"regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./config":"k5Hzs","./helper":"lVRAz"}],"k5Hzs":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
