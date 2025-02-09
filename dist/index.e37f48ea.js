@@ -3102,24 +3102,25 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _view = require("./View");
 var _viewDefault = parcelHelpers.interopDefault(_view);
+var _iconsSvg = require("url:../../img/icons.svg");
 class ReultsView extends (0, _viewDefault.default) {
     _parentElement = document.querySelector('.results');
     _generateMarkup() {
         return this._data.map(this._generateMarkupPreview).join('');
     }
-    _generateMarkupPreview() {
+    _generateMarkupPreview(result) {
         return `
         <li class="preview">
-            <a class="preview__link preview__link--active"  href="#23456">
+            <a class="preview__link preview__link--active"  href="#${result.id}">
             <figure class="preview__fig">
-                <img src="src/img/test-1.jpg" alt="Test" />
+                <img src="${result.image}" alt="Test" />
             </figure>
             <div class="preview__data">
-                <h4 class="preview__title">Pasta with Tomato Cream ...</h4>
-                <p class="preview__publisher">The Pioneer Woman</p>
+                <h4 class="preview__title">${result.title}</h4>
+                <p class="preview__publisher">${result.publisher}</p>
                 <div class="preview__user-generated">
                 <svg>
-                    <use href="src/img/icons.svg#icon-user"></use>
+                    <use href="${0, _iconsSvg.icons}#icon-user"></use>
                 </svg>
                 </div>
             </div>
@@ -3130,6 +3131,6 @@ class ReultsView extends (0, _viewDefault.default) {
 }
 exports.default = new ReultsView();
 
-},{"./View":"5cUXS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["ik2hV","aenu9"], "aenu9", "parcelRequire94c2")
+},{"./View":"5cUXS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","url:../../img/icons.svg":"loVOp"}]},["ik2hV","aenu9"], "aenu9", "parcelRequire94c2")
 
 //# sourceMappingURL=index.e37f48ea.js.map
