@@ -620,9 +620,15 @@ const controlRecipes = async function() {
         (0, _recipeViewJsDefault.default).renderError();
     }
 };
-// window.addEventListener('hashchange', controlRecipes);
-// window.addEventListener('load', controlRecipes)
-// code below same as code above
+const controlSearchResult = async function() {
+    try {
+        await _modelJs.loadSearchResult('pizza');
+        console.log(_modelJs.state.search.result);
+    } catch (err) {
+        console.log(err);
+    }
+};
+controlSearchResult();
 const init = function() {
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
 };

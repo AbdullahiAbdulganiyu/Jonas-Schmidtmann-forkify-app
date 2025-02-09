@@ -28,10 +28,16 @@ const controlRecipes = async function () {
   }
 };
 
-// window.addEventListener('hashchange', controlRecipes);
-// window.addEventListener('load', controlRecipes)
-// code below same as code above
+const controlSearchResult = async function () {
+  try {
+    await model.loadSearchResult('pizza');
+    console.log(model.state.search.result);
+  } catch (err) {
+    console.log(err);
+  }
+};
 
+controlSearchResult();
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
 };
