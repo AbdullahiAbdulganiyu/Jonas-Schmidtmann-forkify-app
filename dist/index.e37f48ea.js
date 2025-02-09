@@ -2555,7 +2555,6 @@ const loadSearchResult = async function(query) {
                 image: rec.image_url
             };
         });
-        console.log(state.search.result);
     } catch (err) {
         console.error(`${err} \u{1F386}\u{1F386}\u{1F386}`);
         throw err;
