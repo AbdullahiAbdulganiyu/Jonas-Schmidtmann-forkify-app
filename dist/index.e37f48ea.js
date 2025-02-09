@@ -2510,7 +2510,7 @@ const state = {
 };
 const loadRecipe = async function(id) {
     try {
-        const data = await (0, _helper.getJSON)(`${(0, _config.API_URL)}/${id}`);
+        const data = await (0, _helper.getJSON)(`${(0, _config.API_URL)}${id}`);
         const { recipe } = data.data;
         state.recipe = {
             id: recipe.id,
@@ -2531,7 +2531,7 @@ const loadRecipe = async function(id) {
 };
 const loadSearchResult = async function(query) {
     try {
-        const data = await (0, _helper.getJSON)(`${(0, _config.API_URL)}/recipes?search=${query}`);
+        const data = await (0, _helper.getJSON)(`${(0, _config.API_URL)}?search=${query}`);
         console.log(data);
     } catch (err) {
         console.error(`${err} \u{1F386}\u{1F386}\u{1F386}`);
@@ -2545,7 +2545,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "API_URL", ()=>API_URL);
 parcelHelpers.export(exports, "TIMEOUT_SEC", ()=>TIMEOUT_SEC);
-const API_URL = `https://forkify-api.jonas.io/api/v2/recipes`;
+const API_URL = `https://forkify-api.jonas.io/api/v2/recipes/`;
 const TIMEOUT_SEC = 10;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lVRAz":[function(require,module,exports,__globalThis) {
