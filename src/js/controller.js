@@ -50,7 +50,7 @@ const controlSearchResult = async function () {
   }
 };
 
-const controPagination = function () {
+const controPagination = function (goToPage) {
   console.log('page controller');
 };
 

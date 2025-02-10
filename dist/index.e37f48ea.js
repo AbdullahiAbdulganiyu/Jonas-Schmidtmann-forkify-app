@@ -642,7 +642,7 @@ const controlSearchResult = async function() {
         console.log(err);
     }
 };
-const controPagination = function() {
+const controPagination = function(goToPage) {
     console.log('page controller');
 };
 const init = function() {
@@ -3159,8 +3159,7 @@ class PaginationView extends (0, _viewJsDefault.default) {
             const btn = e.target.closest('.btn--inline');
             if (!btn) return;
             const goToPage = +btn.dataset.goto;
-            console.log(goToPage);
-            handler();
+            handler(goToPage);
         });
     }
     _generateMarkup() {
