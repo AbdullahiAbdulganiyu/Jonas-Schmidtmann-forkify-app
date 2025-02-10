@@ -2515,6 +2515,7 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "state", ()=>state);
 parcelHelpers.export(exports, "loadRecipe", ()=>loadRecipe);
 parcelHelpers.export(exports, "loadSearchResult", ()=>loadSearchResult);
+parcelHelpers.export(exports, "getSearchResultsPage", ()=>getSearchResultsPage);
 var _regeneratorRuntime = require("regenerator-runtime");
 var _config = require("./config");
 var _helper = require("./helper");
@@ -2563,6 +2564,11 @@ const loadSearchResult = async function(query) {
         console.error(`${err} \u{1F386}\u{1F386}\u{1F386}`);
         throw err;
     }
+};
+const getSearchResultsPage = function(page) {
+    const start = (page - 1) * 10;
+    const end = page * 10;
+    return state.search.result.slice(start, end);
 };
 
 },{"regenerator-runtime":"dXNgZ","./config":"k5Hzs","./helper":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k5Hzs":[function(require,module,exports,__globalThis) {
