@@ -633,7 +633,7 @@ const controlSearchResult = async function() {
         await _modelJs.loadSearchResult(query);
         // 3) Render result
         // resultsView.render(model.state.search.results);
-        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage(1));
+        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage());
     } catch (err) {
         console.log(err);
     }
