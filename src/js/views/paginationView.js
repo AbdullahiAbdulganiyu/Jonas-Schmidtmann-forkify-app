@@ -15,7 +15,7 @@ class PaginationView extends View {
     }
 
     // Last page
-    if (this._data.page === numPages) {
+    if (this._data.page === numPages && numPages > 1) {
       return 'Last page';
     }
 
