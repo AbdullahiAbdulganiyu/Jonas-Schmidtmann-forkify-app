@@ -57,6 +57,7 @@ const controPagination = function () {
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
   searchView.addHandlerSearch(controlSearchResult);
+  paginationView.addHandlerClick(controPagination);
 };
 
 init();
