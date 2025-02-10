@@ -16,7 +16,14 @@ class PaginationView extends View {
 
     // Last page
     if (this._data.page === numPages && numPages > 1) {
-      return 'Last page';
+      return `
+        <button class="btn--inline pagination__btn--prev">
+            <svg class="search__icon">
+              <use href="src/img/icons.svg#icon-arrow-left"></use>
+            </svg>
+            <span>Page ${this._data.page - 1}</span>
+        </button>
+      `;
     }
 
     // Other pages
