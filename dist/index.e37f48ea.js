@@ -3160,7 +3160,7 @@ class PaginationView extends (0, _viewJsDefault.default) {
         if (curPage === numPages && numPages > 1) return `
         <button class="btn--inline pagination__btn--prev">
             <svg class="search__icon">
-              <use href="src/img/icons.svg#icon-arrow-left"></use>
+              <use href="${0, _iconsSvgDefault.default}#icon-arrow-left"></use>
             </svg>
             <span>Page ${curPage - 1}</span>
         </button>
