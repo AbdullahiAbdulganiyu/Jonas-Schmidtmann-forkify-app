@@ -2524,7 +2524,7 @@ const state = {
     search: {
         query: '',
         result: [],
-        resultsPerPage: 10
+        resultsPerPage: (0, _config.RES_PER_PAGE)
     }
 };
 const loadRecipe = async function(id) {

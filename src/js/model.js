@@ -1,12 +1,12 @@
 import { async } from 'regenerator-runtime';
-import { API_URL } from './config';
+import { API_URL, RES_PER_PAGE } from './config';
 import { getJSON } from './helper';
 export const state = {
   recipe: {},
   search: {
     query: '',
     result: [],
-    resultsPerPage: 10,
+    resultsPerPage: RES_PER_PAGE,
   },
 };
 
