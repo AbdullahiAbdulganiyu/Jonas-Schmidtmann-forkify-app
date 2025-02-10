@@ -642,6 +642,9 @@ const controlSearchResult = async function() {
         console.log(err);
     }
 };
+const controPagination = function() {
+    console.log('page controller');
+};
 const init = function() {
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
     (0, _searchViewJsDefault.default).addHandlerSearch(controlSearchResult);

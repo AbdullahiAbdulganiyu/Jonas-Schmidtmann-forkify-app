@@ -50,6 +50,10 @@ const controlSearchResult = async function () {
   }
 };
 
+const controPagination = function () {
+  console.log('page controller');
+};
+
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
   searchView.addHandlerSearch(controlSearchResult);
