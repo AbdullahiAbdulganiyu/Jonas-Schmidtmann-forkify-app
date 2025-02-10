@@ -3150,7 +3150,10 @@ var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class PaginationView extends (0, _viewJsDefault.default) {
     _parentElement = document.querySelector('.pagination');
-    _generateMarkup() {}
+    _generateMarkup() {
+        const numPages = Math.ceil(this._data.results.length / this._data.resultsPerPage);
+        console.log(numPages);
+    }
 }
 exports.default = new PaginationView();
 
