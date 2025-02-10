@@ -3153,6 +3153,12 @@ class PaginationView extends (0, _viewJsDefault.default) {
     _generateMarkup() {
         const numPages = Math.ceil(this._data.results.length / this._data.resultsPerPage);
         console.log(numPages);
+        // Page 1 and there are other pages
+        if (this._data.page === 1 && numPages > 1) return 'Page 1';
+        // Last page
+        if (this._data.page === numPages) return 'Last page';
+        // Other pages
+        if (this._data.page < numPages) return 'Other pages';
     }
 }
 exports.default = new PaginationView();
