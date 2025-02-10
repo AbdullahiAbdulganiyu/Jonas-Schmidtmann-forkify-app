@@ -643,7 +643,11 @@ const controlSearchResult = async function() {
     }
 };
 const controPagination = function(goToPage) {
-    console.log('page controller');
+    // 1) Render NEW result
+    // resultsView.render(model.state.search.results);
+    (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage(goToPage));
+    // 4) Render NEW pagination buttons
+    (0, _paginationViewJsDefault.default).render(_modelJs.state.search);
 };
 const init = function() {
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
