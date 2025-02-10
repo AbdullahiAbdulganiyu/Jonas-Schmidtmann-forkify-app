@@ -630,7 +630,7 @@ const controlSearchResult = async function() {
         // 2) Load search results
         await _modelJs.loadSearchResult(query);
         // 3) Render result
-        // resultsView.render(model.state.search.result);
+        // resultsView.render(model.state.search.results);
         (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage(1));
     } catch (err) {
         console.log(err);
@@ -2524,7 +2524,7 @@ const state = {
     recipe: {},
     search: {
         query: '',
-        result: [],
+        results: [],
         resultsPerPage: (0, _config.RES_PER_PAGE)
     }
 };
@@ -2554,7 +2554,7 @@ const loadSearchResult = async function(query) {
         state.search.query = query;
         const data = await (0, _helper.getJSON)(`${(0, _config.API_URL)}?search=${query}`);
         console.log(data);
-        state.search.result = data.data.recipes.map((rec)=>{
+        state.search.results = data.data.recipes.map((rec)=>{
             return {
                 id: rec.id,
                 title: rec.title,
@@ -2570,7 +2570,7 @@ const loadSearchResult = async function(query) {
 const getSearchResultsPage = function(page) {
     const start = (page - 1) * state.search.resultsPerPage;
     const end = page * state.search.resultsPerPage;
-    return state.search.result.slice(start, end);
+    return state.search.results.slice(start, end);
 };
 
 },{"regenerator-runtime":"dXNgZ","./config":"k5Hzs","./helper":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k5Hzs":[function(require,module,exports,__globalThis) {
