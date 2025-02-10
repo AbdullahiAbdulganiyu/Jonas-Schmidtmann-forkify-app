@@ -53,7 +53,7 @@ class PaginationView extends View {
     }
 
     // Page 1 and there are no other pages
-    return 'Only 1 page';
+    return '';
   }
 }
 

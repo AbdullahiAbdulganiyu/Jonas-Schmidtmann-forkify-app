@@ -3188,7 +3188,7 @@ class PaginationView extends (0, _viewJsDefault.default) {
         </button> 
       `;
         // Page 1 and there are no other pages
-        return 'Only 1 page';
+        return '';
     }
 }
 exports.default = new PaginationView();
