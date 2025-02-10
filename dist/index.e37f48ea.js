@@ -2523,7 +2523,8 @@ const state = {
     recipe: {},
     search: {
         query: '',
-        result: []
+        result: [],
+        resultsPerPage: 10
     }
 };
 const loadRecipe = async function(id) {
@@ -2566,8 +2567,8 @@ const loadSearchResult = async function(query) {
     }
 };
 const getSearchResultsPage = function(page) {
-    const start = (page - 1) * 10;
-    const end = page * 10;
+    const start = (page - 1) * resultsPerPage;
+    const end = page * resultsPerPage;
     return state.search.result.slice(start, end);
 };
 
