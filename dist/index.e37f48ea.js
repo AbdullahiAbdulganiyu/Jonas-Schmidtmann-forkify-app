@@ -3159,6 +3159,8 @@ class PaginationView extends (0, _viewJsDefault.default) {
         if (this._data.page === numPages) return 'Last page';
         // Other pages
         if (this._data.page < numPages) return 'Other pages';
+        // Page 1 and there are no other pages
+        return 'Only 1 page';
     }
 }
 exports.default = new PaginationView();
