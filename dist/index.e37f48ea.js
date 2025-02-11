@@ -2662,6 +2662,7 @@ class RecipeView extends (0, _viewJsDefault.default) {
     addHandlerUpdateServings(handler) {
         this._parentElement.addEventListener('click', function(e) {
             const btn = e.target.closest('.btn--tiny');
+            if (!btn) return;
             console.log(btn);
         });
     }
