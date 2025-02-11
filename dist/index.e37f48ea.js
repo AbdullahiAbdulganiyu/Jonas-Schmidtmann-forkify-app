@@ -2666,7 +2666,6 @@ class RecipeView extends (0, _viewJsDefault.default) {
             if (!btn) return;
             const { updateTo } = btn.dataset;
             if (+updateTo > 0) handler(+updateTo);
-            console.log(btn);
         });
     }
     _generateMarkup() {
