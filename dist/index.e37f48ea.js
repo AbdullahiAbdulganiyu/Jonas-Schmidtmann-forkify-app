@@ -2797,7 +2797,7 @@ class View {
             const curEl = curElements[i];
             console.log(curEl, newEl.isEqualNode(curEl));
             if (!newEl.isEqualNode(curEl) && newEl.firstChild.nodeValue.trim() !== '') {
-                console.log("\uD83C\uDF86", newEl.firstChild.nodeValue.trim());
+                console.log("\uD83C\uDF86", newEl.firstChild?.nodeValue.trim());
                 curEl.textContent = newEl.textContent;
             }
         });
