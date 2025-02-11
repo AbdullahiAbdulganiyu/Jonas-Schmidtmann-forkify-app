@@ -1997,6 +1997,8 @@ const updateServings = function(newServings) {
 const addBookmark = function(recipe) {
     // Add bookmark
     state.bookmarks.push(recipe);
+    // Mark current recipe as bookmarked
+    if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
 };
 
 },{"regenerator-runtime":"dXNgZ","./config":"k5Hzs","./helper":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports,__globalThis) {
