@@ -17,6 +17,8 @@ export default class View {
       return this.renderError();
     this._data = data;
     const newMarkup = this._generateMarkup();
+
+    const newDOM = document.createRange().createContextualFragment(newMarkup);
   }
 
   _clear() {
