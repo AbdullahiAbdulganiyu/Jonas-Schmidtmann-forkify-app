@@ -649,9 +649,9 @@ const controPagination = function(goToPage) {
     // 4) Render NEW pagination buttons
     (0, _paginationViewJsDefault.default).render(_modelJs.state.search);
 };
-const controlServings = function() {
+const controlServings = function(newServings) {
     //Update recipe servings (in state)
-    _modelJs.updateServings(8);
+    _modelJs.updateServings(newServings);
     // Update recipe view
     (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
 };
