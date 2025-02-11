@@ -3172,6 +3172,7 @@ class ReultsView extends (0, _viewDefault.default) {
         return this._data.map(this._generateMarkupPreview).join('');
     }
     _generateMarkupPreview(result) {
+        const id = window.location.hash.slice(1);
         return `
         <li class="preview">
             <a class="preview__link"  href="#${result.id}">
