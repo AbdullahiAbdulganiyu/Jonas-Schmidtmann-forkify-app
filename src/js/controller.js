@@ -62,6 +62,9 @@ const controPagination = function (goToPage) {
 const controlServings = function () {
   //Update recipe servings (in state)
   model.updateServings(6);
+
+  // Update recipe view
+  recipeView.render(model.state.recipe);
 };
 
 const init = function () {
