@@ -1994,7 +1994,10 @@ const updateServings = function(newServings) {
     });
     state.recipe.servings = newServings;
 };
-const addBookmark = function(recipe) {};
+const addBookmark = function(recipe) {
+    // Add bookmark
+    state.bookmarks.push(recipe);
+};
 
 },{"regenerator-runtime":"dXNgZ","./config":"k5Hzs","./helper":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports,__globalThis) {
 /**
