@@ -2554,16 +2554,16 @@ const state = {
 const loadRecipe = async function(id) {
     try {
         const data = await (0, _helper.getJSON)(`${(0, _config.API_URL)}${id}`);
-        const { recipe: recipe1 } = data.data;
+        const { recipe } = data.data;
         state.recipe = {
-            id: recipe1.id,
-            title: recipe1.title,
-            publisher: recipe1.publisher,
-            sourceUrl: recipe1.source_url,
-            image: recipe1.image_url,
-            servings: recipe1.servings,
-            cookingTime: recipe1.cooking_time,
-            ingredients: recipe1.ingredients
+            id: recipe.id,
+            title: recipe.title,
+            publisher: recipe.publisher,
+            sourceUrl: recipe.source_url,
+            image: recipe.image_url,
+            servings: recipe.servings,
+            cookingTime: recipe.cooking_time,
+            ingredients: recipe.ingredients
         };
         console.log(state.recipe);
     } catch (err) {
@@ -2597,7 +2597,7 @@ const getSearchResultsPage = function(page = state.search.page) {
     return state.search.results.slice(start, end);
 };
 const updateServings = function(newServings) {
-    recipe.ingredients.forEach((ing)=>{
+    state.recipe.ingredients.forEach((ing)=>{
         // newQ = oldQ * newser / oldser
         ing.quantity = ing.quantity * newServings / state.recipe.servings;
     });
