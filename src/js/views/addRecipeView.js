@@ -7,6 +7,8 @@ class AddRecipeView extends View {
 
   _overlay = document.querySelector('.overlay');
 
+  _btnOpen = document.querySelector('.nav__btn--add-recipe');
+
   _generateMarkup() {}
 }
 
