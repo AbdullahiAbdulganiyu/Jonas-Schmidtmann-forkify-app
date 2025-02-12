@@ -1,4 +1,5 @@
-import View from './View';
+import View from './View.js';
+import previewView from './previewView.js';
 import { icons } from 'url:../../img/icons.svg';
 
 class ReultsView extends View {
@@ -29,6 +30,11 @@ class ReultsView extends View {
   //       </li>
   //   `;
   // }
+
+  _generateMarkup() {
+    console.log(this._data);
+    return this._data.map(result => previewView.render(result, false)).join('');
+  }
 }
 
 export default new ReultsView();
