@@ -2010,6 +2010,7 @@ const addBookmark = function(recipe1) {
     if (recipe1.id === state.recipe.id) state.recipe.bookmarked = true;
 };
 const removeBookmark = function(id) {
+    // Delete bookmark
     const index = state.bookmarks.findIndex((el)=>el.id === id);
     state.bookmarks.splice(index, 1);
     // Marking the recipe as NOT bookmarked
