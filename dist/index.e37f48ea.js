@@ -2026,6 +2026,7 @@ const deleteBookmark = function(id) {
     state.bookmarks.splice(index, 1);
     // Marking the recipe as NOT bookmarked
     if (id === state.recipe.id) state.recipe.bookmarked = false;
+    persistBookmark();
 };
 
 },{"regenerator-runtime":"dXNgZ","./config":"k5Hzs","./helper":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports,__globalThis) {
