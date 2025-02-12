@@ -661,9 +661,11 @@ const controlServings = function(newServings) {
     (0, _recipeViewJsDefault.default).update(_modelJs.state.recipe);
 };
 const controlAddBookmark = function() {
+    // 1) Add/Remove bookmark
     if (!_modelJs.state.recipe.bookmarked) _modelJs.addBookmark(_modelJs.state.recipe);
     else _modelJs.deleteBookmark(_modelJs.state.recipe.id);
     console.log(_modelJs.state.recipe);
+    // 2) Update the recipe view
     (0, _recipeViewJsDefault.default).update(_modelJs.state.recipe);
 };
 const init = function() {
