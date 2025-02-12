@@ -2,15 +2,9 @@ import View from './View';
 import { icons } from 'url:../../img/icons.svg';
 
 class PreviewView extends View {
-  _parentElement = document.querySelector('.results');
-  _errorMessage = 'No recipes found for your query. Please try again :)';
-  _message = '';
+  _parentElement = '';
 
-  _generateMarkup() {
-    return this._data.map(this._generateMarkupPreview).join('');
-  }
-
-  _generateMarkupPreview(result) {
+  _generateMarkup(result) {
     const id = window.location.hash.slice(1);
 
     return `
