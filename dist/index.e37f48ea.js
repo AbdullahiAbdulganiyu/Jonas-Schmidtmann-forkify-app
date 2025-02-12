@@ -2010,7 +2010,7 @@ const updateServings = function(newServings) {
     });
     state.recipe.servings = newServings;
 };
-const persistBookmark = function() {
+const persistBookmarks = function() {
     localStorage.setItem('bookmark', JSON.stringify(state.bookmarks));
 };
 const addBookmark = function(recipe) {
@@ -2018,7 +2018,7 @@ const addBookmark = function(recipe) {
     state.bookmarks.push(recipe);
     // Mark current recipe as bookmarked
     if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
-    persistBookmark();
+    persistBookmarks();
 };
 const deleteBookmark = function(id) {
     // Delete bookmark
@@ -2026,7 +2026,7 @@ const deleteBookmark = function(id) {
     state.bookmarks.splice(index, 1);
     // Marking the recipe as NOT bookmarked
     if (id === state.recipe.id) state.recipe.bookmarked = false;
-    persistBookmark();
+    persistBookmarks();
 };
 
 },{"regenerator-runtime":"dXNgZ","./config":"k5Hzs","./helper":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports,__globalThis) {
