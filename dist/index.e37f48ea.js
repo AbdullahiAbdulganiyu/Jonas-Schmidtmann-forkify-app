@@ -2018,6 +2018,7 @@ const addBookmark = function(recipe) {
     state.bookmarks.push(recipe);
     // Mark current recipe as bookmarked
     if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
+    persistBookmark();
 };
 const deleteBookmark = function(id) {
     // Delete bookmark
