@@ -107,3 +107,5 @@ const init = function () {
 };
 
 init();
+
+console.log(state.bookmarks);
