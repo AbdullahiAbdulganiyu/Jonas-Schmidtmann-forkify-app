@@ -2039,6 +2039,10 @@ const init = function() {
 };
 init();
 console.log(state.bookmarks);
+const clearBookmarks = function() {
+    localStorage.clear('bookmarks');
+};
+clearBookmarks();
 
 },{"regenerator-runtime":"dXNgZ","./config":"k5Hzs","./helper":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports,__globalThis) {
 /**
