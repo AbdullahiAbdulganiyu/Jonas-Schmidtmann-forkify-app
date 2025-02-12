@@ -26,7 +26,10 @@ export default class View {
       console.log(curEl, newEl.isEqualNode(curEl));
 
       // Update changed TEXT
-      if (!newEl.isEqualNode(curEl) && newEl.firstChild.nodeValue.trim() !== '')
+      if (
+        !newEl.isEqualNode(curEl) &&
+        newEl.firstChild?.nodeValue.trim() !== ''
+      )
         curEl.textContent = newEl.textContent;
 
       // Update changed ATTRIBUTE
