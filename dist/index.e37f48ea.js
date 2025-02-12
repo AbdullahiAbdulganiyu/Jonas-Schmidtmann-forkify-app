@@ -3294,6 +3294,8 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _view = require("./View");
 var _viewDefault = parcelHelpers.interopDefault(_view);
+var _previewView = require("./previewView");
+var _previewViewDefault = parcelHelpers.interopDefault(_previewView);
 var _iconsSvg = require("url:../../img/icons.svg");
 class BookmarksView extends (0, _viewDefault.default) {
     _parentElement = document.querySelector('.bookmarks__list');
