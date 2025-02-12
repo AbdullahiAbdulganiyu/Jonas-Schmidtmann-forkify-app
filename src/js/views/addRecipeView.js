@@ -5,6 +5,8 @@ class AddRecipeView extends View {
 
   _window = document.querySelector('.add-recipe-window');
 
+  _overlay = document.querySelector('.overlay');
+
   _generateMarkup() {}
 }
 
