@@ -117,22 +117,26 @@ const clearBookmarks = function () {
 // clearBookmarks();
 
 export const uploadRecipe = async function (newRecipe) {
-  // creating an array of ingredient recieved from the newRecipe
-  console.log(newRecipe);
-  const ingredients = Object.entries(newRecipe)
-    .filter(entry => entry[0].startsWith('ingredient') && entry[1] !== '')
-    .map(ing => {
-      const ingArr = ing[1].replaceAll(' ', '').split(',');
-      if (ingArr.length !== 3)
-        throw new Error(
-          'Wrong ingredient format. Please use the proper format :)'
-        );
-      const [quantity, unit, description] = ingArr;
-      return {
-        quantity: quantity ? +quantity : null,
-        unit,
-        description,
-      };
-    });
-  console.log(ingredients);
+  try {
+    // creating an array of ingredient recieved from the newRecipe
+    console.log(newRecipe);
+    const ingredients = Object.entries(newRecipe)
+      .filter(entry => entry[0].startsWith('ingredient') && entry[1] !== '')
+      .map(ing => {
+        const ingArr = ing[1].replaceAll(' ', '').split(',');
+        if (ingArr.length !== 3)
+          throw new Error(
+            'Wrong ingredient format. Please use the proper format :)'
+          );
+        const [quantity, unit, description] = ingArr;
+        return {
+          quantity: quantity ? +quantity : null,
+          unit,
+          description,
+        };
+      });
+    console.log(ingredients);
+  } catch (err) {
+    throw err;
+  }
 };
