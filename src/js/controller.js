@@ -103,6 +103,7 @@ const init = function () {
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   searchView.addHandlerSearch(controlSearchResult);
   paginationView.addHandlerClick(controPagination);
+  addRecipeView.addHandlerUpload(controlAddRecipe);
 };
 
 init();
