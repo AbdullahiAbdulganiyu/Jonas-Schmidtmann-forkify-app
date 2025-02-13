@@ -2052,6 +2052,7 @@ const clearBookmarks = function() {
 const uploadRecipe = async function(newRecipe) {
     // creating an array of ingredient recieved from the newRecipe
     const ingredients = Object.entries(newRecipe).filter((entry)=>entry[0].startsWith('ingredient') && entry[1] !== '');
+    console.log(ingredients);
 };
 
 },{"regenerator-runtime":"dXNgZ","./config":"k5Hzs","./helper":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports,__globalThis) {
