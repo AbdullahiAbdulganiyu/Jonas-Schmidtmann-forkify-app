@@ -2049,7 +2049,7 @@ console.log(state.bookmarks);
 const clearBookmarks = function() {
     localStorage.clear('bookmarks');
 };
-const uploadRecipe = function(newRecipe) {};
+const uploadRecipe = async function(newRecipe) {};
 
 },{"regenerator-runtime":"dXNgZ","./config":"k5Hzs","./helper":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports,__globalThis) {
 /**
