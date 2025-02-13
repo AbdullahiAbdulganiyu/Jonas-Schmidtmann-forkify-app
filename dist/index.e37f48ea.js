@@ -677,6 +677,7 @@ const controlBookmarks = function() {
     (0, _bookmarksViewJsDefault.default).render(_modelJs.state.bookmarks);
 };
 const controlAddRecipe = function(newRecipe) {
+    // Upload the new recipe
     _modelJs.uploadRecipe(newRecipe);
 };
 const init = function() {

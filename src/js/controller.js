@@ -93,6 +93,7 @@ const controlBookmarks = function () {
 };
 
 const controlAddRecipe = function (newRecipe) {
+  // Upload the new recipe
   model.uploadRecipe(newRecipe);
 };
 
