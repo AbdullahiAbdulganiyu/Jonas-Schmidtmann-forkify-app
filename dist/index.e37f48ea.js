@@ -677,8 +677,13 @@ const controlBookmarks = function() {
     (0, _bookmarksViewJsDefault.default).render(_modelJs.state.bookmarks);
 };
 const controlAddRecipe = function(newRecipe) {
-    // Upload the new recipe
-    _modelJs.uploadRecipe(newRecipe);
+    try {
+        // Upload the new recipe
+        _modelJs.uploadRecipe(newRecipe);
+    } catch (err) {
+        console.error("\uD83C\uDF86", err);
+        (0, _addRecipeViewJsDefault.default).renderError(err.message);
+    }
 };
 const init = function() {
     (0, _bookmarksViewJsDefault.default).addHandlerRender(controlBookmarks);
