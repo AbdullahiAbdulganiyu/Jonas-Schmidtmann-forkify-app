@@ -3402,6 +3402,7 @@ class AddRecipeView extends (0, _viewJsDefault.default) {
             const data = [
                 ...new FormData(this)
             ];
+            console.log(data);
         });
     }
     _generateMarkup() {}
