@@ -1,4 +1,4 @@
-8090
+8091
 163C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\cosmiconfig\dist\util.d.ts.map133831489201849295 0
 139C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\braces133831489160625092 1
 170C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\features\string\virtual\at.js133832461765675834 0
@@ -35,6 +35,12 @@
 155C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\is-number\package.json133831489073308185 0
 157C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@lezer\lr\dist\index.cjs133831489093677738 0
 175C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\node-gyp-build-optional-packages\README.md133831489137852247 0
+167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\graph\src\AdjacencyList.js133831489136885484 0
+165C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\ordered-binary\.idea\modules.xml133831489173752321 0
+167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\array\find-index.js133832461808697585 0
+164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\transformer-raw\LICENSE133831489075324355 0
+149C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views\addRecipeView.js133839089933809512 0
+167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\internals\entry-virtual.js133832461781559851 0
 156C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\browserslist\browser.js133831489079047109 0
 177C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\dom-serializer\lib\esm\foreignNames.d.ts.map133831489143761592 0
 157C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\react-refresh\runtime.js133831489139949017 0
@@ -45,7 +51,7 @@
 161C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml-render\package.json133831489093250006 0
 164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\regions\FI.js133831489261342483 0
 146C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\source-map-js133831490546531392 1
-124C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist133838389322691515 1
+124C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist133839308589441845 1
 167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\graph\lib\AdjacencyList.js133831489104151486 0
 175C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\source-map-js\lib\source-map-consumer.d.ts133831490546437755 0
 167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\typed-array\with.js133832461891130063 0
@@ -94,7 +100,7 @@
 143C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\semver\bin133831489201549389 1
 163C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\internals\not-a-nan.js133832461846032807 0
 173C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@swc\helpers\_\_class_private_method_set133831489248131753 1
-130C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\index.html133836140082218875 0
+130C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\index.html133839308585907853 0
 169C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\features\typed-array\from.js133832461815952910 0
 157C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\es\array\find.js133832461809780511 0
 187C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\lmdb\node_modules\node-addon-api\napi-inl.deprecated.h133831489126747873 0
@@ -199,15 +205,15 @@
 141C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\sass\_recipe.scss133790119326029621 0
 142C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\sass\_preview.scss133790119325469992 0
 166C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-value-parser\lib\index.js133831489079947912 0
-141C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\sass\_upload.scss133790119327024766 0
-200C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\README.md133831489137371596 0
-176C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml\node_modules\domutils\package.json133831489161262271 0
-153C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\semver\bin\semver.js133831489203248820 0
 154C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\chokidar\handler.d.ts133831490551287697 0
 186C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\object\get-own-property-descriptors.js133832461820231330 0
 139C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@lezer133831489007801013 1
 167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\es.string.blink.js133832461790422911 0
 189C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml\node_modules\entities\lib\decode_codepoint.d.ts133831489187247481 0
+141C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\sass\_upload.scss133790119327024766 0
+200C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\README.md133831489137371596 0
+153C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\semver\bin\semver.js133831489203248820 0
+176C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml\node_modules\domutils\package.json133831489161262271 0
 158C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\semver\functions\patch.js133831489196564254 0
 166C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\core\test\fixtures\config133831489162863756 1
 160C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\entities\lib\esm\index.d.ts133831489219545793 0
@@ -216,13 +222,13 @@
 174C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\features\css-regions.js133831489251351278 0
 168C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\node-addon-api\package-support.json133831489179563127 0
 152C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\es\weak-set133832461827408500 1
-136C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\config.js133836509550527809 0
+136C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\config.js133839291056283131 0
 176C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\esnext.iterator.flat-map.js133832461798192068 0
 189C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@swc\helpers\esm\_class_static_private_field_spec_set.js133831489236549060 0
 177C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\features\array\virtual\filter-out.js133832461807200672 0
 144C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\detect-libc133831489128025121 1
 156C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\semver\functions\neq.js133831489194950559 0
-140C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\controller.js133838336818388010 0
+140C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\controller.js133839266589054919 0
 177C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@swc\helpers\_\_sliced_to_array\package.json133831489253248077 0
 155C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\es\date\now.js133832461846189053 0
 192C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.1133831489194771579 0
@@ -234,24 +240,18 @@
 145C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\readdirp\esm133831490549816882 1
 156C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\parent-module\readme.md133831489100042559 0
 177C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\features\typed-array\reduce-right.js133832461854698628 0
-136C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\helper.js133834311088892924 0
-151C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stage\3.js133832461757991150 0
-147C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\dom-serializer133831489163690454 1
-171C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\string\from-code-point.js133832461815542232 0
-173C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\features\set\is-disjoint-from.js133832461833650457 0
-164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\regions\PN.js133831489363671503 0
-160C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\regenerator-runtime\path.js133831489078498124 0
+136C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\helper.js133839297787672336 0
 164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\regions\NL.js133831489284087465 0
 174C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\reflect\delete-property.js133832461778378053 0
 178C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\entities\lib\esm\generated\encode-html.js.map133831489201509326 0
-135C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\model.js133838309481139256 0
+135C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\model.js133839301895153356 0
 151C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\is-extglob\LICENSE133831489085298962 0
 165C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\instance\flags.js133832461811938381 0
 179C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml\node_modules\htmlparser2\package.json133831489142140965 0
 174C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\internals\set-is-disjoint-from.js133832461860041154 0
 178C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\transformer-raw\src\RawTransformer.js133831489094548822 0
 151C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\chalk\package.json133831489125498619 0
-146C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views\recipeView.js133837830594070983 0
+146C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views\recipeView.js133838652167135275 0
 169C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\es.symbol.replace.js133832461791935845 0
 165C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\es.math.clz32.js133832461786644411 0
 175C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\json-parse-even-better-errors\CHANGELOG.md133831489085191240 0
@@ -261,7 +261,7 @@
 163C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\regexp\match.js133832461844875667 0
 182C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\transformer-babel\src\BabelTransformer.js133831489139102991 0
 164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\promise\finally.js133832461808116595 0
-132C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views133838347487204866 1
+132C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views133838718844055235 1
 145C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@swc\helpers133831489256052432 1
 162C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\reflect\has.js133832461823971316 0
 168C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\es.string.strike.js133832461791329974 0
@@ -270,7 +270,7 @@
 173C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\utility-types\dist\aliases-and-guards.js133831489080247521 0
 174C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\msgpackr-extract\node_modules\detect-libc133831489138448750 1
 154C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\fractional\index.html133833241514179220 0
-149C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views\bookmarksView.js133838389434903048 0
+149C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views\bookmarksView.js133838673492464432 0
 171C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\es.typed-array.some.js133832461793633105 0
 147C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views\previewView.js133838389309579787 0
 167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\actual\instance\entries.js133832461781089155 0
@@ -289,8 +289,8 @@
 141C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml133831489126168674 1
 175C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\array\virtual\to-spliced.js133832461876844876 0
 142C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\sass133831490557824920 0
-147C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views\resultsView.js133837555837786881 0
-140C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views\View.js133838385790015968 0
+147C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views\resultsView.js133838644302066396 0
+140C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\src\js\views\View.js133838636176382047 0
 161C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\workers\src\child.js133831489139021946 0
 184C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml\node_modules\posthtml-parser\dist\index.js133831489094014565 0
 153C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\electron-to-chromium133831489166152481 1
@@ -366,6 +366,12 @@
 164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\iterator\filter.js133832461807943892 0
 149C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\srcset\readme.md133831489099452744 0
 179C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\es.array-buffer.constructor.js133832461782154861 0
+151C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stage\3.js133832461757991150 0
+147C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\dom-serializer133831489163690454 1
+171C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\string\from-code-point.js133832461815542232 0
+173C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\features\set\is-disjoint-from.js133832461833650457 0
+164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\regions\PN.js133831489363671503 0
+160C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\regenerator-runtime\path.js133831489078498124 0
 144C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\js-yaml\bin133831489173213515 1
 167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\feature-flags\lib\types.js133831489126096830 0
 147C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\domelementtype133831489142494404 1
@@ -1905,7 +1911,7 @@
 189C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\LICENSE133831489160861242 0
 173C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\es\reflect\prevent-extensions.js133832461850005449 0
 173C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\features\object\lookup-getter.js133832461842276947 0
-147C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\index.f7626f62.css.map133838389320284518 0
+147C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\index.f7626f62.css.map133839301897818945 0
 161C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\math\log10.js133832461842085048 0
 158C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\es\array\every.js133832461805538172 0
 176C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\es.typed-array.to-sorted.js133832461793831281 0
@@ -2075,9 +2081,6 @@
 161C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\domutils\lib\esm\querying.js133831489166072379 0
 155C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\data-view133832461860565530 1
 182C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\ordered-binary\.nyc_output\processinfo\index.json133831489160861242 0
-167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\graph\src\AdjacencyList.js133831489136885484 0
-165C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\ordered-binary\.idea\modules.xml133831489173752321 0
-167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\array\find-index.js133832461808697585 0
 162C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\domhandler\lib\esm\index.d.ts133831489173452332 0
 172C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\ordered-binary\.idea\ordered-binary.iml133831489094014565 0
 173C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\actual\array\virtual\for-each.js133832461814369373 0
@@ -2546,7 +2549,7 @@
 193C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\lightningcss-win32-x64-msvc\lightningcss.win32-x64-msvc.node133831489233243532 0
 193C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\core\test\fixtures\config-plugin-not-found\.parcelrc133831489142413963 0
 163C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\iterator\map.js133832461843578085 0
-142C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\index.e37f48ea.js133838389321956097 0
+142C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\index.e37f48ea.js133839301897236949 0
 175C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\esnext.composite-symbol.js133832461795993236 0
 173C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\lightningcss-win32-x64-msvc\package.json133831489078149218 0
 178C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\features\array\virtual\to-reversed.js133832461875651149 0
@@ -3248,7 +3251,7 @@
 151C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\dotenv\lib\main.js133831489109941107 0
 167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\internals\enum-bug-keys.js133832461781559851 0
 154C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\domutils\package.json133831489179650687 0
-143C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\icons.21bad73c.svg133838389322469315 0
+143C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\icons.21bad73c.svg133839301897236949 0
 149C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\domutils\lib\esm133831489218507200 1
 169C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\features\run-in.js133831489366246252 0
 160C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\domutils\lib\feeds.d.ts.map133831489185449391 0
@@ -4687,8 +4690,6 @@
 178C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\packager-js\src\GlobalOutputFormat.js133831489162863756 0
 149C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\url133832461874088777 1
 166C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\internals\entry-unbind.js133832461781403614 0
-164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\transformer-raw\LICENSE133831489075324355 0
-167C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\internals\entry-virtual.js133832461781559851 0
 176C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\core\test\fixtures\config\subfolder133831489163353094 1
 182C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\features\css-read-only-write.js133831489251102310 0
 172C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\internals\environment-is-ios.js133832461781634504 0
@@ -5149,7 +5150,7 @@
 163C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\es\string\match-all.js133832461843578085 0
 164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\number\to-fixed.js133832461873317669 0
 159C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\json\index.js133832461829182481 0
-135C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\index.html133838389320106763 0
+135C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\index.html133839308589441845 0
 169C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\number\virtual\index.js133832461829953317 0
 178C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\number\virtual\to-exponential.js133832461873142117 0
 159C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\array\find.js133832461810479045 0
@@ -6619,7 +6620,7 @@
 185C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@swc\helpers\cjs\_class_extract_field_descriptor.cjs133831489185449391 0
 159C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@swc\helpers\_\_call_super133831489245020442 1
 169C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\actual\array\virtual\with.js133832461890058150 0
-145C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\favicon.8b2f57bf.png133838389318215480 0
+145C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\favicon.8b2f57bf.png133839301897080700 0
 178C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\features\canvas-blending.js133831489231814596 0
 150C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\commander\esm.mjs133831489173213515 0
 151C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\commander\index.js133831489139263871 0
@@ -6719,7 +6720,7 @@
 164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\regions\CX.js133831489256052432 0
 150C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\base-x\LICENSE.md133831489093650748 0
 164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\regions\CZ.js133831489256148649 0
-146C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\index.e37f48ea.js.map133838389322112319 0
+146C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\index.e37f48ea.js.map133839301897818945 0
 164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\regions\DE.js133831489256448197 0
 164C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\regions\DJ.js133831489257052717 0
 183C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\runtime-js\lib\helpers\node\wasm-loader.js133831489203248820 0
@@ -8085,7 +8086,7 @@
 179C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\node-gyp-build-optional-packages-test.ps1133831489388347820 0
 174C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\node-gyp-build-optional-packages.cmd133831489388347820 0
 148C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\parcel.cmd133831489388347820 0
-143C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\icons.dfd7a6db.svg133838389322469315 0
-143C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\index.f7626f62.css133838389320201052 0
-142C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\logo.726d37a8.png133838389318215480 0
+143C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\icons.dfd7a6db.svg133839301897236949 0
+143C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\index.f7626f62.css133839301897236949 0
+142C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\logo.726d37a8.png133839301897080700 0
 148C:\Users\Administrator\Documents\complete-javascript-course-master\complete-javascript-course-master\18-forkify\starter\dist\starter.3464ddca.js.map133831490591149970 0
