@@ -126,7 +126,7 @@ export const uploadRecipe = async function (newRecipe) {
         .replaceAll(' ', '')
         .split(',');
       return {
-        quantity,
+        quantity: quantity ? +quantity : null,
         unit,
         description,
       };
