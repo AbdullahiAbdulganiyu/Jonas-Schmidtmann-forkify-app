@@ -123,6 +123,10 @@ export const uploadRecipe = async function (newRecipe) {
     .filter(entry => entry[0].startsWith('ingredient') && entry[1] !== '')
     .map(ing => {
       const ingArr = ing[1].replaceAll(' ', '').split(',');
+      if (ingArr.length !== 3)
+        throw new Error(
+          'Wrong ingredient format. Please use the proper format :)'
+        );
       const [quantity, unit, description] = ingArr;
       return {
         quantity: quantity ? +quantity : null,
