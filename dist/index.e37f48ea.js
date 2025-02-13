@@ -2052,7 +2052,7 @@ const clearBookmarks = function() {
 const uploadRecipe = async function(newRecipe) {
     // creating an array of ingredient recieved from the newRecipe
     const ingredients = Object.entries(newRecipe).filter((entry)=>entry[0].startsWith('ingredient') && entry[1] !== '').map((ing)=>{
-        ing.replaceAll(' ', '');
+        ing.replaceAll(' ', '').split(',');
     });
     console.log(ingredients);
 };
