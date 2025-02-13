@@ -115,3 +115,5 @@ const clearBookmarks = function () {
 };
 
 // clearBookmarks();
+
+export const uploadRecipe = function (newRecipe) {};
