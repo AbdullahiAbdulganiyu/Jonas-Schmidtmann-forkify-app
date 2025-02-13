@@ -3380,7 +3380,7 @@ class AddRecipeView extends (0, _viewJsDefault.default) {
     _overlay = document.querySelector('.overlay');
     _btnOpen = document.querySelector('.nav__btn--add-recipe');
     _btnClose = document.querySelector('.btn--close-modal');
-    consructor() {
+    constructor(){
         super();
         this._addHandlerShowWindow();
     }
