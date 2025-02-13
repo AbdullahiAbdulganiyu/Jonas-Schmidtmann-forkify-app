@@ -152,6 +152,7 @@ export const uploadRecipe = async function (newRecipe) {
     console.log(recipe);
     const data = await sendJSON(`${API_URL}?key=${KEY}`, recipe);
     state.recipe = createRecipeObject(data);
+    addBookmark(state.recipe);
   } catch (err) {
     throw err;
   }
