@@ -2078,7 +2078,8 @@ const uploadRecipe = async function(newRecipe) {
             servings: newRecipe.servings,
             ingredients
         };
-        console.log(recipe);
+        const data = await (0, _helper.sendJSON)(`${(0, _config.API_URL)}?key=${(0, _config.KEY)}`);
+        console.log(data);
     } catch (err) {
         throw err;
     }
