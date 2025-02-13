@@ -1,6 +1,6 @@
 import { async } from 'regenerator-runtime';
 import { API_URL, RES_PER_PAGE } from './config';
-import { getJSON } from './helper';
+import { getJSON, sendJSON } from './helper';
 export const state = {
   recipe: {},
   search: {
