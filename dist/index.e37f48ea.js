@@ -2050,6 +2050,7 @@ const clearBookmarks = function() {
     localStorage.clear('bookmarks');
 };
 const uploadRecipe = async function(newRecipe) {
+    // creating an array of ingredient recieved from the newRecipe
     const ingredients = Object.entries(newRecipe).filter((entry)=>entry[0].startsWith('ingredient') && entry[1] !== '');
 };
 
