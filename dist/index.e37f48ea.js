@@ -680,6 +680,7 @@ const controlAddRecipe = async function(newRecipe) {
     try {
         // Upload the new recipe
         await _modelJs.uploadRecipe(newRecipe);
+        console.log(state.model.recipe);
     } catch (err) {
         console.error("\uD83C\uDF86", err);
         (0, _addRecipeViewJsDefault.default).renderError(err.message);
