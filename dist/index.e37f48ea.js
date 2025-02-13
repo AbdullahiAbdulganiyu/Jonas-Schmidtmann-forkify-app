@@ -2053,7 +2053,8 @@ const uploadRecipe = async function(newRecipe) {
     // creating an array of ingredient recieved from the newRecipe
     console.log(newRecipe);
     const ingredients = Object.entries(newRecipe).filter((entry)=>entry[0].startsWith('ingredient') && entry[1] !== '').map((ing)=>{
-        const [quantity, unit, description] = ing[1].replaceAll(' ', '').split(',');
+        const ingArr = ing[1].replaceAll(' ', '').split(',');
+        const [quantity, unit, description] = ingArr;
         return {
             quantity: quantity ? +quantity : null,
             unit,
