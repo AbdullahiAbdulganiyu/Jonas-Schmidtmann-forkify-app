@@ -2050,7 +2050,7 @@ const clearBookmarks = function() {
     localStorage.clear('bookmarks');
 };
 const uploadRecipe = async function(newRecipe) {
-    const ingredients = Object.entries(newRecipe);
+    const ingredients = Object.entries(newRecipe).filter((entry)=>entry[0].startsWith('ingredient') && entry[1] !== '');
 };
 
 },{"regenerator-runtime":"dXNgZ","./config":"k5Hzs","./helper":"lVRAz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports,__globalThis) {
