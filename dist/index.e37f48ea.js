@@ -3389,7 +3389,7 @@ class AddRecipeView extends (0, _viewJsDefault.default) {
         this._window.classList.toggle('hidden');
     };
     _addHandlerShowWindow() {
-        this._btnOpen.addEventListener('click', this.toggleWindow);
+        this._btnOpen.addEventListener('click', this.toggleWindow.bind(this));
     }
     _generateMarkup() {}
 }
