@@ -676,10 +676,10 @@ const controlAddBookmark = function() {
 const controlBookmarks = function() {
     (0, _bookmarksViewJsDefault.default).render(_modelJs.state.bookmarks);
 };
-const controlAddRecipe = function(newRecipe) {
+const controlAddRecipe = async function(newRecipe) {
     try {
         // Upload the new recipe
-        _modelJs.uploadRecipe(newRecipe);
+        await _modelJs.uploadRecipe(newRecipe);
     } catch (err) {
         console.error("\uD83C\uDF86", err);
         (0, _addRecipeViewJsDefault.default).renderError(err.message);
