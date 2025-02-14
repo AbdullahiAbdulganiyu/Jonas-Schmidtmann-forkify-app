@@ -2007,7 +2007,7 @@ const createRecipeObject = function(data) {
 };
 const loadRecipe = async function(id) {
     try {
-        const data = await (0, _helper.AJAX)(`${(0, _config.API_URL)}${id}`);
+        const data = await (0, _helper.AJAX)(`${(0, _config.API_URL)}${id}?key=${(0, _config.KEY)}`);
         state.recipe = createRecipeObject(data);
         if (state.bookmarks.some((bookmark)=>bookmark.id === id)) state.recipe.bookmarked = true;
         else state.recipe.bookmarked = false;
@@ -2021,7 +2021,7 @@ const loadRecipe = async function(id) {
 const loadSearchResult = async function(query) {
     try {
         state.search.query = query;
-        const data = await (0, _helper.AJAX)(`${(0, _config.API_URL)}?search=${query}`);
+        const data = await (0, _helper.AJAX)(`${(0, _config.API_URL)}?search=${query}&key=${(0, _config.KEY)}`);
         console.log(data);
         state.search.results = data.data.recipes.map((rec)=>{
             return {
