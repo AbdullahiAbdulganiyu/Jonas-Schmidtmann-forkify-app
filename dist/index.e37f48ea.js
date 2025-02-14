@@ -683,7 +683,7 @@ const controlAddRecipe = async function(newRecipe) {
         (0, _addRecipeViewJsDefault.default).renderSpiner();
         // Upload the new recipe
         await _modelJs.uploadRecipe(newRecipe);
-        console.log(state.model.recipe);
+        console.log(_modelJs.state.recipe);
         // Render recipe
         (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
         // Render success message
@@ -2701,7 +2701,7 @@ parcelHelpers.export(exports, "MODAL_CLOSE_SEC", ()=>MODAL_CLOSE_SEC);
 const API_URL = `https://forkify-api.jonas.io/api/v2/recipes/`;
 const TIMEOUT_SEC = 10;
 const RES_PER_PAGE = 10;
-const KEY = '22b0d6c7-6b8e-4c47-a216-5097b8a2a39a';
+const KEY = `22b0d6c7-6b8e-4c47-a216-5097b8a2a39a`;
 const MODAL_CLOSE_SEC = 2.5;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports,__globalThis) {
@@ -2766,7 +2766,7 @@ const sendJSON = async function(url, uploadData) {
     try {
         const fetchPro = fetch(url, {
             method: 'POST',
-            header: {
+            headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(uploadData)
@@ -2776,7 +2776,7 @@ const sendJSON = async function(url, uploadData) {
             timeout((0, _config.TIMEOUT_SEC))
         ]);
         const data = await res.json();
-        if (!res.ok) throw new Error(`${data.message} ${data.status}`);
+        if (!res.ok) throw new Error(`${data.message} (${res.status})`);
         return data;
     } catch (err) {
         throw err;
