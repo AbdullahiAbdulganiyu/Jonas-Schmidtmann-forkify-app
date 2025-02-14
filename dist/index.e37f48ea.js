@@ -2878,8 +2878,11 @@ class RecipeView extends (0, _viewJsDefault.default) {
               </div>
             </div>
 
-            <div class="recipe__user-generated">
-            </div>
+          <div class="recipe__user-generated">
+            <svg>
+              <use href="${0, _iconsSvgDefault.default}#icon-user"></use>
+            </svg>
+          </div>
             <button class="btn--round btn--bookmark">
               <svg class="">
                 <use href="${0, _iconsSvgDefault.default}#icon-bookmark${this._data.bookmarked ? '-fill' : ''}"></use>
