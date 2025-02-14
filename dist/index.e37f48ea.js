@@ -2741,6 +2741,7 @@ exports.export = function(dest, destName, get) {
 },{}],"lVRAz":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AJAX", ()=>AJAX);
 parcelHelpers.export(exports, "getJSON", ()=>getJSON);
 parcelHelpers.export(exports, "sendJSON", ()=>sendJSON);
 var _config = require("./config");
@@ -2750,6 +2751,15 @@ const timeout = function(s) {
             reject(new Error(`Request took too long! Timeout after ${s} second`));
         }, s * 1000);
     });
+};
+const AJAX = function(url, uploadData) {
+    const fetchPro = uploadData ? fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(uploadData)
+    }) : fetch(url);
 };
 const getJSON = async function(url) {
     try {
