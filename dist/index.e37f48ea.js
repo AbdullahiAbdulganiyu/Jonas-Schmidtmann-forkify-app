@@ -3393,7 +3393,7 @@ class PreviewView extends (0, _viewJsDefault.default) {
                 <p class="preview__publisher">${this._data.publisher}</p>
                 <div class="preview__user-generated ${this._data.key ? '' : 'hidden'}">
                   <svg>
-                    <use href="src/img/icons.svg#icon-user"></use>
+                    <use href="${0, _iconsSvg.icons}#icon-user"></use>
                   </svg>
                 </div>
             </div>
