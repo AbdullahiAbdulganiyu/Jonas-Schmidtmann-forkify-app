@@ -2752,14 +2752,25 @@ const timeout = function(s) {
         }, s * 1000);
     });
 };
-const AJAX = function(url, uploadData) {
-    const fetchPro = uploadData ? fetch(url, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(uploadData)
-    }) : fetch(url);
+const AJAX = async function(url, uploadData) {
+    try {
+        const fetchPro = uploadData ? fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(uploadData)
+        }) : fetch(url);
+        const res = await Promise.race([
+            fetchPro,
+            timeout((0, _config.TIMEOUT_SEC))
+        ]);
+        const data = await res.json();
+        if (!res.ok) throw new Error(`${data.message} (${res.status})`);
+        return data;
+    } catch (err) {
+        throw err;
+    }
 };
 const getJSON = async function(url) {
     try {
