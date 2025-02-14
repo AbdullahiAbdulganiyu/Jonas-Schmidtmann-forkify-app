@@ -689,7 +689,7 @@ const controlAddRecipe = async function(newRecipe) {
         // Render success message
         (0, _addRecipeViewJsDefault.default).renderMessage();
         // Render bookmark view
-        (0, _bookmarksViewJsDefault.default).render(_modelJs.state.recipe);
+        (0, _bookmarksViewJsDefault.default).render(_modelJs.state.bookmarks);
         // Change Id in URL
         window.history.pushState(null, '', `#${_modelJs.state.recipe.id}`); //(state,title,URL)
         // Close form window
