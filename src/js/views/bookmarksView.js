@@ -1,5 +1,7 @@
 import View from './View.js';
 import previewView from './previewView.js';
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 import { icons } from 'url:../../img/icons.svg';
 
 class BookmarksView extends View {

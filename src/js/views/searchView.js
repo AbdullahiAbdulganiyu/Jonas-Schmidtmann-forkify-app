@@ -1,3 +1,5 @@
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 class SearchView {
   _parentEl = document.querySelector('.search');
 
